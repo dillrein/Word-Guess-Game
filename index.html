@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hang Man Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Can you guess the color?</h1>
+                <p class="lead">Guess the color of the rainbow!</p>
+ 
+            </div>
+
+            <div class="card card-default">
+                <div class="card-heading">
+                    <h3 class="card-title">Color to Guess</h3>
+                </div>
+                <div class="card-body">
+                    _ _ _ _ _ _
+                </div>
+            </div>
+
+            <div class="card card-default">
+                    <div class="card-body">
+                        Letters Guessed: <span id="wrongletter"></span>
+                    </div>
+                </div>
+                
+            <div class="card card-default">
+                    <div class="card-body">
+                        Trys left: <span id="attemptsleft"></span>
+                    </div>
+                </div>
+
+            <div class="card card-default">
+                    <div class="card-body">
+                        Wins!: <span id="wins"></span>
+                    </div>
+                </div>
+            <div class="card card-default">
+                    <div class="card-body">
+                        Loses!: <span id="loses"></span>
+                    </div>
+                </div>    
+        </div>
+
+
+</body>
+</html>
