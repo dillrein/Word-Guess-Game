@@ -17,8 +17,17 @@ function start () {
     //rng to pick a color based off number of rbcolor string
     colorchosen = rbcolors[Math.floor(Math.random() * rbcolors.length)];
 
+    lettersincolor = colorchosen.split("");
+
+
     console.log(colorchosen);
+    console.log(lettersincolor);
+
+
 }
+
+
+
 
 
 //Main Process
